@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #F1F3F4;
     background-image: url("images/back.png");
     background-size: 1280px 650px;
     background-repeat: no-repeat;
