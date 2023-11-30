@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=League+Spartan&family=Marhey:wght@300&display=swap');
+
+* {
+    font-family: 'Andika', 'Marhey';
+}
+
+body {
+    background-image: url("images/back.png");
+    background-size: 1280px 650px;
+    background-repeat: no-repeat;
+
+
+}
+
+.box {
+    text-align: center;
+    border-style: none;
+}
+
+
+
+
+
+.box .names {
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+
+.box .selfdesc {
+    border: 1px solid rgb(117, 117, 117);
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+
+
+}
+
+.box .photo {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.box .photo img{
+    padding-bottom: 10px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+@media (max-width:500px) {
+    body {
+        background-image: url("images/back.png");
+        background-size: 414px 900px;
+        background-repeat: no-repeat;
+    }
+
+    .box .names {
+        padding-top: 25%;
+        text-align: center;
+    }
+
+    .box .photo {
+        padding-bottom: 10px;
+        text-align: center;
+        width: 50%;
+        margin-left: 100px;
+    }
+
+    .box .photo img{
+        padding-bottom: 10px;
+        text-align: center;
+        width: 200px;
+ 
+    
+    }
+    
+
+}
