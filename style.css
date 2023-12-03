@@ -5,78 +5,31 @@
 }
 
 body {
-    background-color: #F1F3F4;
     background-image: url("images/back.png");
     background-size: 1280px 650px;
     background-repeat: no-repeat;
-    z-index: 2;
-    margin: 0; /* Added to remove default body margin */
 }
 
 .box .names {
-    margin-top: 15%;
-    margin-right: 15%;
-    text-align: right;
+    margin-top: 8%;
+    text-align: center;
 }
 
 .box .selfdesc {
     border: 1px solid rgb(117, 117, 117);
-    text-align: right;
+    text-align: center;
     width: 50%;
-    margin-left: 40%;
-    margin-top: -20%;
+    margin-left: 25%;
     padding-right: 10px; /* Adjusted padding */
 }
 
 .box .photo {
-    padding-bottom: 10px;
     text-align: center;
-    margin-top: -5%;
+
 }
 
 .box .photo img {
-    padding-bottom: 10px;
-    text-align: center;
     width: 300px;
     height: 300px;
-    margin-right: 50%;
 }
 
-@media (max-width:500px) {
-    body {
-        background-image: url("images/back.png");
-        background-size: 414px 900px;
-        background-repeat: no-repeat;
-        text-align: center;
-        margin: 0; /* Added to remove default body margin */
-    }
-
-    .box .names {
-        text-align: center;
-        margin-left: 15%;
-        padding-bottom: 5%;
-        padding-top: 15%;
-    }
-
-    .box .photo {
-        padding-bottom: 10px;
-        text-align: center;
-        width: 50%;
-        margin-left: 25%;
-    }
-
-    .box .photo img {
-        padding-bottom: 10px;
-        text-align: center;
-        width: 200px;
-    }
-
-    .box .selfdesc {
-        border: 1px solid rgb(117, 117, 117);
-        text-align: right;
-        width: 50%;
-        margin-left: 25%;
-        margin-top: -5%;
-        padding-right: 10px; /* Adjusted padding */
-    }
-}
